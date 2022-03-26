@@ -18,7 +18,6 @@ import SupportIcon from './icons/IconSupport.vue'
     <a target="_blank" href="https://vuejs.org/">official documentation</a>
     provides you with all information you need to get started.
   </WelcomeItem>
-
   <WelcomeItem>
     <template #icon>
       <ToolingIcon />

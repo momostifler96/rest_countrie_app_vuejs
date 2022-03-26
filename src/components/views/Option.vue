@@ -1,7 +1,5 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
-import BtnGroupe from './components/BtnGroupe.vue';
+import BtnGroupe from '../BtnGroupe.vue';
 </script>
 
 <template>
@@ -17,11 +15,12 @@ import BtnGroupe from './components/BtnGroupe.vue';
     <TheWelcome />
     ,
   </main> -->
+  <BtnGroupe/>
   <router-view></router-view>
 </template>
 
 <style>
-@import './assets/base.css';
+@import '../../assets/base.css  ';
 
 #app {
   max-width: 1280px;

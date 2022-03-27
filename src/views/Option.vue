@@ -1,5 +1,5 @@
 <script setup>
-import BtnGroupe from '../BtnGroupe.vue';
+import BtnGroupe from '../components/BtnGroupe.vue';
 </script>
 
 <template>
@@ -20,7 +20,7 @@ import BtnGroupe from '../BtnGroupe.vue';
 </template>
 
 <style>
-@import '../../assets/base.css  ';
+@import '../../src/assets/base.css';
 
 #app {
   max-width: 1280px;

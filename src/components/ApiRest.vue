@@ -59,8 +59,6 @@
             ,
             recherch(order_by = "all",name =""){
 
-
-
                 if (name == 'continent') {
                     name = this.selectedd
                 }
@@ -72,7 +70,7 @@
                     order_by = this.check
                 }
 
-                url = `https://restcountries.com/v3.1/${order_by}/${name}?fields=name,capital,continents,flags`;
+                var url = `https://restcountries.com/v3.1/${order_by}/${name}?fields=name,capital,continents,flags`;
 
                  fetch(url,{
                     method:"get",

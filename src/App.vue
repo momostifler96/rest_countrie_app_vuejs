@@ -1,7 +1,5 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
-import BtnGroupe from './components/BtnGroupe.vue';
+import Header from './components/header.vue';
 </script>
 
 <template>
@@ -17,6 +15,8 @@ import BtnGroupe from './components/BtnGroupe.vue';
     <TheWelcome />
     ,
   </main> -->
+  <Header/>
+  
   <router-view></router-view>
 </template>
 
